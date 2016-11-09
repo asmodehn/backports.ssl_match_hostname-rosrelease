@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import os
-from setuptools import setup, find_packages
+from distutils.core import setup
 
 long_description = open(os.path.join(
     os.path.dirname(__file__), 'backports', 'ssl_match_hostname', 'README.txt',
@@ -9,14 +9,15 @@ long_description = open(os.path.join(
 
 setup(
     name='backports.ssl_match_hostname',
-    version='3.4.0.2',
-    description='The ssl.match_hostname() function from Python 3.4',
+    version='3.5.0.1',
+    description='The ssl.match_hostname() function from Python 3.5',
     long_description=long_description,
     author='Brandon Rhodes',
     author_email='brandon@rhodesmill.org',
     maintainer='Toshio Kuratomi',
     maintainer_email='toshio@fedoraproject.org',
     url='http://bitbucket.org/brandon/backports.ssl_match_hostname',
+    license='Python Software Foundation License',
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'License :: OSI Approved :: Python Software Foundation License',
@@ -27,9 +28,10 @@ setup(
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.0',
         'Programming Language :: Python :: 3.1',
+        'Programming Language :: Python :: 3.2',
+        'Programming Language :: Python :: 3.3',
+        'Programming Language :: Python :: 3.4',
         'Topic :: Security :: Cryptography',
         ],
-    packages=find_packages('.'),
-    namespace_packages=['backports'],
-    include_package_data=True,
+    packages=['backports', 'backports.ssl_match_hostname'],
     )
