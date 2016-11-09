@@ -18,7 +18,7 @@ branches:
 env:
   # This will check any ROS distro supported on this OS
   # checking devel and install separately so that they don't influence each other (dependencies, path, env, etc.)
-  - CI_ROS_DISTRO=indigo ROS_FLOW=devel
+  # - CI_ROS_DISTRO=indigo ROS_FLOW=devel NO DEVEL FLOW : "setup.py develop" not supported
   - CI_ROS_DISTRO=indigo ROS_FLOW=install
 
 install:
