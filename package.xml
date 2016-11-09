@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package format="2">
+  <!--
+   This file is mostly here to provide ros dependencies when this project is built with catkin
+   -->
+  <name>backports_ssl_match_hostname</name>
+  <version>3.5.0</version>
+  <description>
+  The ssl.match_hostname() function from Python 3.5
+  </description>
+
+  <license>Python software Foundation License</license>
+
+  <url type="repository">https://bitbucket.org/brandon/backports.ssl_match_hostname</url>
+  <url type="bugtracker">https://bitbucket.org/brandon/backports.ssl_match_hostname/issues</url>
+
+  <author email="brandon@rhodesmill.org">Brandon Rhodes</author>
+  <maintainer email='toshio@fedoraproject.org'>Toshio Kuratomi</maintainer>
+  <maintainer email="asmodehn@gmail.com">AlexV</maintainer>
+
+  <buildtool_depend version_gte="0.6.18">catkin</buildtool_depend>
+  <build_depend version_gte="0.1.15">catkin_pip</build_depend>
+
+</package>
+
+
