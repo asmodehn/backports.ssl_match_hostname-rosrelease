@@ -10,6 +10,7 @@ mkdir -p build
 cd build
 cmake .. -DCMAKE_INSTALL_PREFIX=./install
 if [ "$ROS_FLOW" == "devel" ]; then
+    # CAREFUL : currently not supported by setup.py
     make -j1
     source devel/setup.bash
 elif [ "$ROS_FLOW" == "install" ]; then
