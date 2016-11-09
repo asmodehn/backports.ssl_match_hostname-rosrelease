@@ -18,8 +18,8 @@ tracks:
     patches: indigo
     release_inc: '0'
     release_repo_url: null
-    release_tag: f3a8371
+    release_tag: 29bca6a
     ros_distro: indigo
     vcs_type: hg
     vcs_uri: https://bitbucket.org/brandon/backports.ssl_match_hostname
-    version: 3.4.0
+    version: 3.5.0
