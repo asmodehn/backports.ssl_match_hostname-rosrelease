@@ -15,7 +15,6 @@
   <url type="bugtracker">https://bitbucket.org/brandon/backports.ssl_match_hostname/issues</url>
 
   <author email="brandon@rhodesmill.org">Brandon Rhodes</author>
-  <maintainer email='toshio@fedoraproject.org'>Toshio Kuratomi</maintainer>
   <maintainer email="asmodehn@gmail.com">AlexV</maintainer>
 
   <buildtool_depend version_gte="0.6.18">catkin</buildtool_depend>
