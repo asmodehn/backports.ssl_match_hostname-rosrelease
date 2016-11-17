@@ -93,4 +93,6 @@ Versions of tools used:
 # backports.ssl_match_hostname-rosrelease
 Releasing https://bitbucket.org/brandon/backports.ssl_match_hostname for ROS
 
-[![Build Status](https://travis-ci.org/asmodehn/backports.ssl_match_hostname-rosrelease.svg?branch=upstream)](https://travis-ci.org/asmodehn/backports.ssl_match_hostname-rosrelease)
+| Indigo | Jade |
+|:------:|:----:|
+| [![Build Status](https://travis-ci.org/asmodehn/backports.ssl_match_hostname-rosrelease.svg?branch=release%2Findigo%2Fbackports_ssl_match_hostname)](https://travis-ci.org/asmodehn/backports.ssl_match_hostname-rosrelease) | [![Build Status](https://travis-ci.org/asmodehn/backports.ssl_match_hostname-rosrelease.svg?branch=release%2Fjade%2Fbackports_ssl_match_hostname)](https://travis-ci.org/asmodehn/backports.ssl_match_hostname-rosrelease) |
