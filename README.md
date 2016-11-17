@@ -92,3 +92,5 @@ Versions of tools used:
 
 # backports.ssl_match_hostname-rosrelease
 Releasing https://bitbucket.org/brandon/backports.ssl_match_hostname for ROS
+
+[![Build Status](https://travis-ci.org/asmodehn/backports.ssl_match_hostname-rosrelease.svg?branch=upstream)](https://travis-ci.org/asmodehn/backports.ssl_match_hostname-rosrelease)
