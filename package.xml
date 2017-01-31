@@ -20,6 +20,8 @@
   <buildtool_depend version_gte="0.6.18">catkin</buildtool_depend>
   <build_depend version_gte="0.1.15">catkin_pip</build_depend>
 
+  <conflict version_lte="0.7.17">rosbridge_server</conflict>  <!-- since rosbridge_server includes ssl_match_hostname -->
+
 </package>
 
 
