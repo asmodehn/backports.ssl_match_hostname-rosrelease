@@ -1,0 +1,13 @@
+Source: ros-jade-backports-ssl-match-hostname
+Section: misc
+Priority: extra
+Maintainer: AlexV <asmodehn@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jade-catkin (>= 0.6.18), ros-jade-catkin-pip (>= 0.1.15)
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jade-backports-ssl-match-hostname
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, 
+Conflicts: ros-jade-rosbridge-server (<= 0.7.17)
+Description: The ssl.match_hostname() function from Python 3.5
