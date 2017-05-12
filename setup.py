@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import os
-from setuptools import setup
+from distutils.core import setup
 
 long_description = open(os.path.join(
     os.path.dirname(__file__), 'backports', 'ssl_match_hostname', 'README.txt',
