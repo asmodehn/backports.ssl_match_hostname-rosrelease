@@ -42,8 +42,8 @@ tracks:
     patches: jade
     release_inc: '2'
     release_repo_url: null
-    release_tag: b815afb
+    release_tag: 29bca6a
     ros_distro: jade
     vcs_type: hg
-    vcs_uri: https://bitbucket.org/asmodehn/backports.ssl_match_hostname
+    vcs_uri: https://bitbucket.org/brandon/backports.ssl_match_hostname
     version: 3.5.0
