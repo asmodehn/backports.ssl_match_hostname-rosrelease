@@ -40,7 +40,7 @@ tracks:
     last_version: 3.5.0
     name: upstream
     patches: jade
-    release_inc: '2'
+    release_inc: '3'
     release_repo_url: null
     release_tag: 29bca6a
     ros_distro: jade
