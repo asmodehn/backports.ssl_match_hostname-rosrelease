@@ -1,3 +1,26 @@
+## backports_ssl_match_hostname (indigo) - 3.5.0-5
+
+The packages in the `backports_ssl_match_hostname` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --rosdistro indigo --track indigo backports_ssl_match_hostname --edit` on `Fri, 12 May 2017 06:45:08 -0000`
+
+The `backports_ssl_match_hostname` package was released.
+
+Version of package(s) in repository `backports_ssl_match_hostname`:
+
+- upstream repository: https://bitbucket.org/brandon/backports.ssl_match_hostname
+- release repository: https://github.com/asmodehn/backports.ssl_match_hostname-rosrelease.git
+- rosdistro version: `3.5.0-4`
+- old version: `3.5.0-4`
+- new version: `3.5.0-5`
+
+Versions of tools used:
+
+- bloom version: `0.5.26`
+- catkin_pkg version: `0.3.1`
+- rosdep version: `0.11.5`
+- rosdistro version: `0.6.2`
+- vcstools version: `0.1.39`
+
+
 ## backports_ssl_match_hostname (jade) - 3.5.0-3
 
 The packages in the `backports_ssl_match_hostname` repository were released into the `jade` distro by running `/usr/bin/bloom-release --rosdistro jade --track jade backports_ssl_match_hostname --edit` on `Fri, 12 May 2017 06:33:16 -0000`
